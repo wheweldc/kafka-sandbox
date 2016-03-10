@@ -14,4 +14,3 @@ ${KAFKA_HOME}/bin/kafka-server-start.sh ${KAFKA_SANDBOX}/config/server.propertie
  --override port=9093 \
  > ${KAFKA_SANDBOX}/logs/log2/kafka.log &
 
-#${KAFKA_HOME}/bin/kafka-server-start.sh ${KAFKA_SANDBOX}/config/server2.properties --override property=value &
